@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL PAYTON</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script defer src="script/script.js"></script>
+    <script defer src="script/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+       
+<nav>
+     <a href=""><img src="/logo/logo-hotel.png"></a>
+<ul>
+    <li><a href="">Acceuil</a></li>
+    <li><a href="#reservation">Réserver</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="hotel.html">Découvrir l'hotêl</a></li>  
+</ul>
+</nav>
+    </header>
+    <main>
+        <div class="firstContainer">
+            <h1>UNE ESCAPADE DE BIEN ÊTRE</h1>
+            <h2>A partir de 100€</h2>
+        
+        </div>
+        <div class="secondContainer" id="reservation">
+            <h2>RÉSERVER MAINTENANT</h2>
+            <form method="get">
+            <div class="formulaire">
+            <label for="arrived">Du</label>
+            <input type="date" id="arrived" required>
+            <label for="departure">Au</label>
+            <input type="date" id="departure" required>
+        </div>
+        <div class="formulaire">
+            <label for="adult">Adultes</label>
+            <select id="adult" required>
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <label for="child">Enfants</label>
+            <select id="child">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <label for="bedroom">Chambres</label>
+            <select id="bedroom" required>
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+            <input type="submit" value="Rechercher" id="search">
+
+            </form>
+
+        </div>
+        <div id="searchResult"></div>
+        <div class="roomAvailable">
+            <div class="standard">
+            <img src="images/chambre-standard.jpg" alt="chambre standard d'hotel">
+            <p>Etiam interdum sapien vel lorem porta, sit amet dignissim nisl sagittis. In vel tempor sapien, nec mattis sapien. Cras augue turpis, ornare vulputate nunc quis, pretium dignissim est. Aenean sollicitudin tristique laoreet. Quisque est eros, luctus vitae nisi ac, ultrices sagittis quam.</p>
+            <button>SELECTIONNER<br><br>100 € / NUIT</button>
+            </div>
+            <div class="deluxe">
+                <img src="images/chambre-deluxe.jpg" alt="chambre deluxe d'hotel">
+                <p>Etiam interdum sapien vel lorem porta, sit amet dignissim nisl sagittis. In vel tempor sapien, nec mattis sapien. Cras augue turpis, ornare vulputate nunc quis, pretium dignissim est. Aenean sollicitudin tristique laoreet. Quisque est eros, luctus vitae nisi ac, ultrices sagittis quam.</p>
+                <button>SELECTIONNER<br><br>180 € / NUIT</button>
+                </div>
+                <div class="suite">
+                    <img src="images/chambre-suite.jpg" alt="suite d'hotel">
+                    <p>Etiam interdum sapien vel lorem porta, sit amet dignissim nisl sagittis. In vel tempor sapien, nec mattis sapien. Cras augue turpis, ornare vulputate nunc quis, pretium dignissim est. Aenean sollicitudin tristique laoreet. Quisque est eros, luctus vitae nisi ac, ultrices sagittis quam.</p>
+                    <button>SELECTIONNER<br><br>250 € / NUIT</button>
+                    </div>
+                    <div class="duplex">
+                        <img src="images/duplex.jpg" alt="duplex d'hotel">
+                        <p>Etiam interdum sapien vel lorem porta, sit amet dignissim nisl sagittis. In vel tempor sapien, nec mattis sapien. Cras augue turpis, ornare vulputate nunc quis, pretium dignissim est. Aenean sollicitudin tristique laoreet. Quisque est eros, luctus vitae nisi ac, ultrices sagittis quam.</p>
+                        <button>SELECTIONNER<br><br>400 € / NUIT</button>
+                        </div>
+
+        </div>
+
+        <div class="thirdContainer">
+            <div class="hoverlay">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar enim et eros tincidunt placerat. Proin pretium euismod mollis.
+                <br>
+                <br>
+                Etiam interdum sapien vel lorem porta, sit amet dignissim nisl sagittis. In vel tempor sapien, nec mattis sapien. Cras augue turpis, ornare vulputate nunc quis, pretium dignissim est. Aenean sollicitudin tristique laoreet. Quisque est eros, luctus vitae nisi ac, ultrices sagittis quam.</p>
+        </div>
+        </div>
+
+    <div class="footer">
+        <a href=""><img src="/logo/logo-hotel.png"></a>
+        <div>
+        <p>+33 0 00 00 00 00</p>
+        <a href="https://www.instagram.com/?hl=fr" target="_blank" ><img src="logo/instagram.png" alt="logo instagram"></a>
+        <a href="https://fr-fr.facebook.com/" target="_blank" ><img src="logo/facebook.png" alt="logo facebook"></a>
+    </div>
+    </div>
+    </main>
+    
+</body>
+</html>
